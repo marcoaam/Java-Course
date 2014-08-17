@@ -12,7 +12,6 @@ public class Flower
 
    public void draw()
    {
-       
       Ellipse circle2 = new Ellipse(x + 20, y, 20, 20);
       circle2.setColor(Color.PINK);
       circle2.fill();
@@ -33,8 +32,5 @@ public class Flower
       Line line = new Line(x + 30, y + 60, x + 30, y + 120);
       line.setColor(Color.GREEN);
       line.draw();
-    
-       
-
    }
 }
